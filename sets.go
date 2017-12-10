@@ -60,6 +60,7 @@ var animations = map[AnimationKind]Animation{
 	World:               Animation{interval: 80 * time.Millisecond, frames: []string{"🌍", "🌎", "🌏"}},
 }
 
+//ekstralar!
 var CharSets = map[int][]string{
 	0:  {"←", "↖", "↑", "↗", "→", "↘", "↓", "↙"},
 	1:  {"▁", "▃", "▄", "▅", "▆", "▇", "█", "▇", "▆", "▅", "▄", "▃", "▁"},
