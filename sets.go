@@ -62,6 +62,7 @@ var animations = map[AnimationKind]Animation{
 
 // new comments
 // has been added!
+// v.2
 var CharSets = map[int][]string{
 	0:  {"←", "↖", "↑", "↗", "→", "↘", "↓", "↙"},
 	1:  {"▁", "▃", "▄", "▅", "▆", "▇", "█", "▇", "▆", "▅", "▄", "▃", "▁"},
