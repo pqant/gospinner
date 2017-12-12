@@ -4,16 +4,21 @@ import "time"
 
 // Symbols for the finishing actions
 const (
-	successSymbol = "✔"
-	failureSymbol = "✖"
-	warningSymbol = "⚠"
+	successSymbol         = "✔"
+	failureSymbol         = "✖"
+	warningSymbol         = "⚠"
+	questionMarkRedSymbol = "❓"
+	exclamationMarkSymbol = "❗"
+	smileySymbol          = "㋡"
+	starMarkSymbol        = "★"
+	questionMarkSymbol    = "?"
 )
 
 // AnimationKind represents the kind of the animation
 type AnimationKind int
 
 const (
-	Ball AnimationKind = iota
+	Ball                AnimationKind = iota
 	Column
 	Slash
 	Square

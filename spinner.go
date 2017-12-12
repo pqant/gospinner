@@ -220,6 +220,7 @@ func (s *Spinner) Warn() error {
 	return s.FinishWithSymbol(s.warnColor.SprintfFunc()(warningSymbol))
 }
 
+
 // Finish will stop an write to the next line
 func (s *Spinner) Finish() error {
 	if err := s.Stop(); err != nil {
