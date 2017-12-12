@@ -220,7 +220,7 @@ func (s *Spinner) Warn() error {
 	return s.FinishWithSymbol(s.warnColor.SprintfFunc()(warningSymbol))
 }
 
-/* *************** NEW -2 ****************** */
+/* *************** NEW -3 ****************** */
 
 func (s *Spinner) QuestionRed() error {
 	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(questionMarkRedSymbol))
