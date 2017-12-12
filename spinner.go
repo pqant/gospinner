@@ -220,6 +220,28 @@ func (s *Spinner) Warn() error {
 	return s.FinishWithSymbol(s.warnColor.SprintfFunc()(warningSymbol))
 }
 
+/* *************** NEW ****************** */
+
+func (s *Spinner) QuestionRed() error {
+	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(questionMarkRedSymbol))
+}
+func (s *Spinner) Question() error {
+	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(questionMarkSymbol))
+}
+
+func (s *Spinner) ExclamationRed() error {
+	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(exclamationMarkSymbol))
+}
+
+func (s *Spinner) Smiley() error {
+	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(smileySymbol))
+}
+
+func (s *Spinner) Star() error {
+	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(starMarkSymbol))
+}
+
+/* ************************************** */
 
 // Finish will stop an write to the next line
 func (s *Spinner) Finish() error {
