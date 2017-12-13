@@ -12,6 +12,7 @@ const (
 	smileySymbol          = "㋡"
 	starMarkSymbol        = "★"
 	questionMarkSymbol    = "?"
+	aliveSymbol           = "෴"
 )
 
 // AnimationKind represents the kind of the animation
