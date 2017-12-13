@@ -220,7 +220,7 @@ func (s *Spinner) Warn() error {
 	return s.FinishWithSymbol(s.warnColor.SprintfFunc()(warningSymbol))
 }
 
-/* *************** NEW - 5 ****************** */
+/* *************** NEW - 6 ****************** */
 
 func (s *Spinner) QuestionRed() error {
 	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(questionMarkRedSymbol))
@@ -240,6 +240,11 @@ func (s *Spinner) Smiley() error {
 func (s *Spinner) Star() error {
 	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(starMarkSymbol))
 }
+
+func (s *Spinner) Alive() error {
+	return s.FinishWithSymbol(s.succeedColor.SprintfFunc()(aliveSymbol))
+}
+
 
 /* ************************************** */
 
